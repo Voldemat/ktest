@@ -1,0 +1,6 @@
+test_job.yaml
+__main__.py
+*.swp
+__pycache__
+.mypy_cache
+.pytest_cache
