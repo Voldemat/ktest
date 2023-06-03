@@ -25,7 +25,7 @@ jobs:
       - run: pipenv install --dev --system
       # ADJUST THIS: build your documentation into docs/.
       # We use a custom build script for pdoc itself, ideally you just run `pdoc -o docs/ ...` here.
-      - run: pdoc -o docs/ ktest
+      - run: pdoc -o docs/ kube_tests
 
       - uses: actions/upload-pages-artifact@v1
         with:
