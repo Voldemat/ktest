@@ -6,7 +6,7 @@ SCRIPT_TEMPLATE = Template(
     """
     while true; do if $ready_script; then break;
     else echo "Ready script exited with 1, wait 3 seconds";
-    sleep 3; fi; done; $main_command; touch /usr/local/signals/stop;
+    sleep 3; fi; done; $main_command
 """
 )
 
