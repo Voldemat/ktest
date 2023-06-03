@@ -1,10 +1,7 @@
 import time
 
-from kubernetes import client, config
+from kubernetes import client
 from kubernetes.stream import stream
-
-
-config.load_kube_config()
 
 
 class KTestClient:
